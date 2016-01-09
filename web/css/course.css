@@ -109,8 +109,9 @@ p.seemore a{
 
 }
 
-.intensive p{
-	margin-top: 15px;
+.row.intensive{
+	margin-top: 30px;
+    padding-bottom: 100px;
 }
 
 .intensive-course{
@@ -125,4 +126,9 @@ p{
 }
 a.btn{
     background-color: #bb760a;
+}
+
+
+.row img{
+    width :100%;
 }
