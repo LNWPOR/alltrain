@@ -35,8 +35,9 @@ table {
 }
 
 
-body{
-	font-family: "HelveticaNeue-Light";
+body {
+   /* background: #E1E1E1;*/
+    font-family: 'Helvetica Neue', Helvetica-Neue, HelveticaNeue, Arial, sans-serif;
 }
 
 .main-nav{
@@ -68,14 +69,20 @@ body{
 	margin-top: 50%;
 	margin-left: 5%;
 }
+.main-nav ul li a{
+	color: white;
+}
 .main-nav ul .home{
 	/*margin-left: 50%;*/
 }
 .main-nav ul li a:hover{
 	/*margin-left: 55%;*/
-	color: red;
+
+	text-decoration: none;
+	border-bottom: 2px solid white;
 }
 .main-nav ul li a.active{
+	border-bottom: 2px solid white;
 	/*margin-left: 55%;*/
 }
 
@@ -86,40 +93,69 @@ body{
 
 .main-nav.scrolled{
 	background-color:gray;
+	background-color: white;
 }
-.banner img {
-    width: 100%;
-    height: 540px;
+.main-nav.scrolled a{
+	color:black;
+}
+.main-nav.scrolled ul li a:hover{
+	/*margin-left: 55%;*/
+
+	text-decoration: none;
+	border-bottom: 2px solid black;
+}
+.main-nav.scrolled ul li a.active{
+	border-bottom: 2px solid black;
+	/*margin-left: 55%;*/
+}
+
+
+.banner{
+	background-image: url('../img/banner.jpg');
+	background-repeat: no-repeat;
+	display:block;
+	height:500px;
+	 -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.banner .bg-banner {
+
+}
+.banner .text-banner{
+	position: relative;
+	margin-top: 100px;
+	/*margin-left: 30%;*/
+}
+.banner button{
+	position: relative;
+	top:20px;
 }
 
 .intro1{
 	margin-top: 50px;
 	height: 500px;
-	background-color: gray;
+
 }
 .intro1 h1{
 	text-align: center;
 	margin-bottom: 50px;
 }
 .intro1 .row img {
-    width: 100%;
+    width: 50%;
     height: auto;
+    margin-bottom: 30px;
 }
 
-
-.intro2{
-	margin-top: 50px;
-	height: 500px;
-	background-color: #cccccc;
-}
-.intro2 h1{
+.intro1 p{
 	text-align: center;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+
 }
-.intro1 .row img {
-    width: 100%;
-    height: auto;
-}
+
+
 
 .main-footer{
 	margin-top: 50px;
@@ -129,4 +165,16 @@ body{
 
 .login-btn{
 	text-align: right;
+}
+
+
+.intro1 h1{
+	margin: 0px;
+	padding:0px;
+}
+
+.intro1 .row .col-md-3 h1{
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 30px;
 }

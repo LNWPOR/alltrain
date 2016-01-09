@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>CourseVillage</title>
+
+	<link rel="stylesheet" type="text/css" href="libs/Semantic-UI-CSS-master/semantic.min.css">
 	<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
@@ -11,7 +13,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
 <link rel="stylesheet" href="css/main.css">
-<link rel="stylesheet" type="text/css" href="libs/Semantic-UI-CSS-master/semantic.min.css">
+
 
 </head>
 <body>
@@ -19,16 +21,16 @@
 	<nav class="main-nav">
 		<div class="logo"><a href="index.html"><img src="img/logo.png"></a></div>
 		<ul>
-			<li class="home active"><a href="index.html">home</a></li>
-			<li><a href="views/course.html">course</a></li>
-			<li><a href="views/about.html">about us</a></li>
-			<li><a href="" data-toggle="modal" data-target="#myModal">login</a></li>
+			<li class="home"><a class="active" href="index.html">Home</a></li>
+			<li><a href="views/course.html">Course</a></li>
+			<li><a href="views/about.html">About us</a></li>
+			<li><a href="" data-toggle="modal" data-target="#myModal">Log in</a></li>
 		</ul>
 	</nav>
 	
 	<div class="banner">
-		<img src="img/banner.jpg" alt="">
-		<button class="ui inverted orange basic button">Basic Orange</button>
+		<center><img class="text-banner" src="img/bannerText.png" alt=""></center>
+		<center><button class="ui inverted orange basic button">Register here</button></center>
 	</div>
 
 
@@ -36,38 +38,59 @@
 		
 		
 	    <div class="intro1">
-			<h1>intro 1</h1>
+	    	<h1>About us</h1>
+			<p>แหล่งรวมคอร์สของเวิร์คช๊อปสตูดิโอด้านงานฝีมือหลากหลายประเภท เพิ่มโอกาสทางเลือกในการตัดสิน และโอกาสทางการศึกษาที่มีระดับมากขึ้น ด้วยราคาที่ย่อมเยาว์ ร่วมถึงผู้เรียนสามารถสร้างรายได้เสริมจากผลงานตนได้อีกด้วย</p>
 		    <div class="row">
-		      	<div class="col-md-4">
-		      		<img src="img/home.png" alt="">
-		      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quisquam officia veritatis quasi maxime labore iusto sequi error dignissimos, dolores similique possimus culpa facere enim veniam distinctio repellendus in rem.</p>
+		      	<div class="col-md-3">
+		      		<center><img src="img/school112.png" alt=""></center>
+		      		<h1>Best Teacher</h1>
+		      		<p>เรียนรู้จากผู้เชี่ยวชาญทางด้านงานฝีมือโดยตรงจากสถาบันการสอนที่เราคัดสรรมาแล้วว่าครบเครื่องทั้งคุณภาพ และประสบการณ์</p>
 		      	</div>
-		      	<div class="col-md-4">
-		      		<img src="img/home.png" alt="">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quisquam officia veritatis quasi maxime labore iusto sequi error dignissimos, dolores similique possimus culpa facere enim veniam distinctio repellendus in rem.</p>
+		      	<div class="col-md-3">
+		      		<center>
+		      			<img src="img/dollar22.png" alt="">
+		      		</center>
+					<h1>Fabulous event</h1>
+					<p>สัมผัสประสบการณ์การทำงานฝีมือแนวใหม่ จุดประกายความคิดสร้างสรรค์ในการทำงานของคุณ</p>
 		      	</div>
-		      	<div class="col-md-4">
-		      		<img src="img/home.png" alt="">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quisquam officia veritatis quasi maxime labore iusto sequi error dignissimos, dolores similique possimus culpa facere enim veniam distinctio repellendus in rem.</p>
+		      	<div class="col-md-3">
+		      		<center>
+		      			<img src="img/calendar41.png" alt="">
+		      								<h1>Extra earning</h1>
+		      								<p>เพิ่มรายได้พิเศษจากงานอดิเรกที่คุณรัก ด้วยบริการรับซื้อผลงาน
+</p>
+		      		</center>
+		      	</div>
+		      	<div class="col-md-3">
+		      		<center>
+		      			<img src="img/handshake5.png" alt="">
+		      								<h1>Connecting ideas</h1>
+		      								<p>ร่วมเสวนา และแสดงความคิดเห็นร่วมกันกับเพื่อนร่วมคอร์ส ให้ผลงานพิเศษยิ่งขึ้น</p>
+		      		</center>
 		      	</div>
 		    </div>
 	    </div>
 	  	
-	  	<div class="intro2">
-	      <div class="row">
-	      	<div class="col-md-4"><img src="img/home.png" alt=""></div>
-	      	<div class="col-md-8"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam quasi officiis quos sunt porro rem, accusantium vitae, laboriosam tenetur ducimus quo error, nihil, laborum non delectus eum. Porro reiciendis, sapiente!</p></div>
-	      </div>
-	    </div> 
+	  	
 
-	    <footer class="main-footer">
-	    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur quas, inventore ipsam doloribus nobis sit. Tempora odit accusamus, inventore optio labore cumque, voluptatem aliquam mollitia hic placeat repudiandae dicta quidem!</p>
+	    
+	</div>
+	<footer class="main-footer">
 	    </footer>
 
-	</div>
 
 
-<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+
+
+
+
+
+
+
+
+
+
 
   <!-- Modal -->
 <div class="modal fade" id="myModal" role="dialog">
@@ -103,10 +126,10 @@
     </div>
   </div>
 
-
+	<script src="libs/Semantic-UI-CSS-master/semantic.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-	<script src="libs/Semantic-UI-CSS-master/semantic.min.js"></script>
+	
 
 	<script src="js/main.js"></script>
 	
