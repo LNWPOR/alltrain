@@ -116,3 +116,12 @@ p.seemore a{
 .page-name{
     margin-top: 60px;
 }
+
+.pic{
+    width: 100%;
+}
+
+.buybutton{
+    margin-top: 20px;
+    margin-left: 130px;
+}
