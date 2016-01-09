@@ -98,6 +98,18 @@ body {
 .main-nav.scrolled a{
 	color:black;
 }
+.main-nav.scrolled ul li a:hover{
+	/*margin-left: 55%;*/
+
+	text-decoration: none;
+	border-bottom: 2px solid black;
+}
+.main-nav.scrolled ul li a.active{
+	border-bottom: 2px solid black;
+	/*margin-left: 55%;*/
+}
+
+
 .banner{
 	background-image: url('../img/banner.jpg');
 	background-repeat: no-repeat;
